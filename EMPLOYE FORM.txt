@@ -1,0 +1,45 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+
+            <div class="card shadow">
+                <div class="card-header text-center bg-primary text-white">
+                    <h5>Formulaire Employé</h5>
+                </div>
+
+                <div class="card-body">
+                    <form>
+                        <!-- Matricule -->
+                        <div class="mb-3">
+                            <label for="mat" class="form-label">Matricule</label>
+                            <input type="text" class="form-control" id="mat" name="mat" placeholder="Entrer le matricule">
+                        </div>
+
+                        <!-- Nom -->
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Entrer le nom">
+                        </div>
+
+                        <!-- Salaire -->
+                        <div class="mb-3">
+                            <label for="salaire" class="form-label">Salaire</label>
+                            <input type="number" class="form-control" id="salaire" name="salaire" placeholder="Entrer le salaire">
+                        </div>
+
+                        <!-- Boutons -->
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-success">
+                                Enregistrer
+                            </button>
+                            <button type="reset" class="btn btn-secondary">
+                                Annuler
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
